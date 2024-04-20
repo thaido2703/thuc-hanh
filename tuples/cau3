@@ -1,0 +1,13 @@
+d = dict([("jan", 1), ("feb", 2), ("march", 3)])
+# tạo ra một từ điển từ một danh sách các cặp key-value
+# được cung cấp trong dạng của một danh sách tuple
+
+print(d['jan'])
+# in ra giá trị của key 'jan' trong từ điển d
+# khi đó jan là 1
+
+print(d['feb'])
+# tương tự
+
+print(d['march'])
+# tương tự
