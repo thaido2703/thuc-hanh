@@ -1,7 +1,7 @@
 x1, y1, z1 = ('a', 'b', 'c')
-x2, y2, z2 = ('a', 'b', 'c') # gán giá trị 'a' cho biến x1, 'b' cho biến y1 và 'c' cho biến z1
+# gán giá trị 'a' cho biến x1, 'b' cho biến y1 và 'c' cho biến z1
 # các giá trị này được gán dựa trên các giá trị của tuple ('a', 'b', 'c')
-
+x2, y2, z2 = ('a', 'b', 'c') 
 x3, y3, z3 = range(3)
 # tạo một tuple từ 0 đến 2 (bao gồm phạm vi (0, 1, 2) bằng cách sử dụng hàm range(3))
 # sau đó gán giá trị cho biến x3, y3 và z3
