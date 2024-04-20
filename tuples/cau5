@@ -1,1 +1,13 @@
+d = {'first':'string value', 'second':[1,2]}
+# Định nghĩa một từ điển d với hai cặp key-value. Key "first" có giá trị là "string value"
+# và key "second" có giá trị là danh sách [1, 2]
+items = d.items()
+# gán một danh sách các tuple chứa các cặp key-value từ từ điển d vào biến items
+# mỗi tuple trong danh sách sẽ có dạng (key, value)
+print('items:', items)
+# in ra giá trị của biến items
+for k,v in items:
+# bắt đầu một vòng lặp for để duyệt qua từng tuple trong danh sách items. Mỗi lần lặp, một tuple được gán cho k và v
+# tương ứng với key và value trong từ điển d
+print(k,v)
 
